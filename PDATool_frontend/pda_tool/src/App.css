@@ -1,0 +1,59 @@
+.App {
+  /* text-align: center; */
+}
+
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.FileUpLoad
+{
+  border: 2px solid green;
+  margin: 3px;
+  padding: 2px;
+}
+
+.module-list-container, .single-module-container, .module-edit-form-container
+{
+  border: 2px solid red;
+  margin: 3px;
+  padding: 2px;
+}
+
+.module-list-component {
+  border: 2px solid blue;
+  margin: 3px;
+  padding: 2px;
+}
+
+.module-simple-component {
+  border: 2px solid green;
+  margin: 3px;
+  padding: 2px;
+}
+
+.module-detailed-component {
+  border: 2px solid orange;
+  margin: 3px;
+  padding: 2px;
+}
+
+.module-edit-form-component {
+  border: 2px solid purple;
+  margin: 3px;
+  padding: 2px;
+}
+
+a {
+  border: 2px dashed black;
+  margin: 2px;
+  padding: 2px;
+}
