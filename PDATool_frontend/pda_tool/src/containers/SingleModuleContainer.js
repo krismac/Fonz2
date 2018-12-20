@@ -48,7 +48,7 @@ class SingleModuleContainer extends Component {
           kanbanStatus={module.kanbanStatus}
           />
 
-<Link to={'/api/modules/edit/' + this.props.id} class="btn btn-default btn-block Ripple-parent">Edit this module</Link>
+<Link to={'/api/modules/edit/' + this.props.id} class="btn btn-default Ripple-parent">Edit this module</Link>
 
 
 

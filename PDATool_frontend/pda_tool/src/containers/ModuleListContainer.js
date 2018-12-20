@@ -41,7 +41,7 @@ class ModuleListContainer extends Component {
           <button className="print-button" class="btn btn-primary Ripple-parent" onClick={this.exportPDFWithComponent}>Print this list to PDF</button>
 
 
-          <Link to={'/api/modules/detailed'} role="Button" class="btn btn-primary Ripple-parent" >Go to detailed list</Link>
+
         </div>
 
 
@@ -49,10 +49,6 @@ class ModuleListContainer extends Component {
 
 <h1>View a summary of all modules and their status</h1>
       <div className="module-list-container">
-
-        <h3>Module List Container is RED box:</h3>
-        <h3>Module List Component is BLUE box below:</h3>
-        <h3>Simple Module component is GREEN box:</h3>
 
 <MDBListGroup className="my-4 mx-4" style={{ width: "70%" }}>
                 <CardGroup>
@@ -65,6 +61,8 @@ class ModuleListContainer extends Component {
       </MDBListGroup>
 </div>
       </PDFExport>
+      <Link to={'/api/modules'} role="Button" class="btn btn-primary Ripple-parent">Home</Link>
+      <Link to={'/api/modules/detailed'} role="Button" class="btn btn-primary Ripple-parent" >Go to detailed list</Link>
       <FooterPage/>
       </>
     );

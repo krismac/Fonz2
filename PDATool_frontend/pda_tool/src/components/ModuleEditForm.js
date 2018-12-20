@@ -53,7 +53,7 @@ class ModuleEditForm extends Component {
                 this.setState({imageEvidence: url})
               }}/>
 
-            <input class="btn btn-primary Ripple-parent" type="submit" value="Submit" />
+            <input class="btn btn-default Ripple-parent" type="submit" value="Submit" />
 
           </form>
         </div>

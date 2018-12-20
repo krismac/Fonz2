@@ -24,7 +24,7 @@ const ModuleSimple = (props) => {
                   </div>
             </div>
             </CardText>
-    <Link to={'/api/modules/' + props.answerId} color="primary" size="md" class="btn btn-default btn-block Ripple-parent">Module details</Link>
+    <Link to={'/api/modules/' + props.answerId} color="primary" size="md" class="btn btn-default Ripple-parent">Module details</Link>
   </CardBody>
 </Card>
   );
