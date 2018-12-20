@@ -5,6 +5,7 @@
   "dependencies": {
     "@progress/kendo-drawing": "^1.5.7",
     "@progress/kendo-react-pdf": "^2.5.0",
+    "mdbreact": "^4.8.5-patch.1",
     "npm": "^6.5.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
